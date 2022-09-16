@@ -6,7 +6,7 @@
 
 Realizado com base no projeto construído do evento Next Level Week da Rocketseat.
 
-[Clique aqui para acessar](https://juliasalvador19.github.io/NLWeSports/)
+[Clique aqui para acessar](https://juliasalvador19.github.io/NLWeSports_Desafio/)
 
 ## Tecnologias
 
