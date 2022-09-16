@@ -1,0 +1,84 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/Fundo.jpg);
+    background-color: #121214;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+    color: white
+}
+
+header {
+    padding-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header div {
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    border-radius: 50%;
+    margin: auto;
+    width: 120px;
+    display: flex;
+    padding: 4px;
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+header div img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+main{
+    max-width: 520px;
+    margin: 32px auto;    
+    width: 90%;
+    display: grid;
+    gap: 24px;
+}
+
+main section {
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    border-radius: 8px;
+    padding-top: 4px;
+}
+
+main section p {
+    color: #C1C1C1
+}
+
+main section div {
+    background-color: #262629;
+    border-radius: 8px;
+    padding: 32px 24px;
+}
+
+main section div ul{
+    display: flex;
+    list-style: none;
+    margin-top: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+main section div ul li:hover{
+    transform: scale(1.1)
+}
+
+main section ul img {
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid #555555;
+}
+
+.social-list div {
+    height: 176px;
+
+}
